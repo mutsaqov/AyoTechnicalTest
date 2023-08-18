@@ -13,7 +13,6 @@ Langkah untuk penggunaan Automation Test Script diatas
 
 
 
-
 Setelah di running itu ditemukan 2 error berbeda tetapi identik:
 ================================================================
 
