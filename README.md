@@ -22,8 +22,8 @@ Traceback (most recent call last):
   File "c:\Users\Arga Noufal\Downloads\Ativ\technicaltest\technicalTest.py", line 25, in test_double_booking
     self.fail(f"Double booking detected (not allowed): {booking_slot}")
 AssertionError: Double booking detected (not allowed): 15_2022-12-10_09:00:00_11:00:00
+----------------------------------------------------------------------
 
-======================================================================
 Error pertama : [AssertionError: Double booking detected (not allowed): 15_2022-12-10_09:00:00_11:00:00]
 1. Disebabkan karena ketika melakukan pengecekan apakah ada data yang double booking berdasarkan dummy data pada self.bookings 
 2. Pada data dummy diatas ditemukan bahwa terdapat venue, date, start time, and end time: "15_2022-12-10_09:00:00_11:00:00".
@@ -38,8 +38,8 @@ Traceback (most recent call last):
   File "c:\Users\Arga Noufal\Downloads\Ativ\technicaltest\technicalTest.py", line 36, in test_incorrect_price
     self.assertEqual(expected_price, actual_price,
 AssertionError: 1000000 != 1200000 : Incorrect price detected for booking: {'id': 1001, 'Booking_id': 'BK/000001', 'venue_id': 15, 'User_id': 12, 'date': '2022-12-10', 'Start_time': '09:00:00', 'end_time': '11:00:00', 'price': 1200000}. Expected price: 1000000, Actual price: 1200000
+----------------------------------------------------------------------
 
-======================================================================
 Error Kedua: [Expected price: 1000000, Actual price: 1200000]
 1. Hal ini disebabkan karena assertion terus gagal ketika melakukan perbandingan antara harga expected dengan actual price pada data terkait ada missmatch data
 2. pada data dummy ditemukan bahwa price yang terinput adalah 1200000 sedangkan pada database dummynya seharusnya untuk venue id : 15, tanggal 10-12-2022, dan waktu start 09:00:00 berakhir pada 11:00:00 pricenya adalah 1000000
