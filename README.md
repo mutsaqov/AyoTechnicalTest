@@ -1,5 +1,5 @@
 # AyoTechnicalTest
-======================================================
+
 Langkah untuk penggunaan Automation Test Script diatas
 ======================================================
 1. Pastikan pc/laptop sudah menginstall python dengan versi 3.11.4 (code automation diatas sudah menggunakan python versi 3)
